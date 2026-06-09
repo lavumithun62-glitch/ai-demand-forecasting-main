@@ -1,63 +1,24 @@
-# ==================================
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
 
-# PYTHON
+node_modules
+dist
+dist-ssr
+*.local
 
-# ==================================
-
-backend/venv/
-**pycache**/
-*.pyc
-*.pyo
-*.pyd
-
-# ==================================
-
-# REPORTS & UPLOADS
-
-# ==================================
-
-backend/reports/
-backend/uploads/
-
-# ==================================
-
-# NODE MODULES
-
-# ==================================
-
-frontend/node_modules/
-
-# ==================================
-
-# BUILD FILES
-
-# ==================================
-
-frontend/dist/
-
-# ==================================
-
-# ENVIRONMENT FILES
-
-# ==================================
-
-.env
-*.env
-
-# ==================================
-
-# DATABASE
-
-# ==================================
-
-*.db
-*.sqlite3
-
-# ==================================
-
-# OS FILES
-
-# ==================================
-
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
 .DS_Store
-Thumbs.db
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
